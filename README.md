@@ -1,5 +1,9 @@
 # data-migration-agent
 
+![Status](https://img.shields.io/badge/status-em%20progresso-yellow?style=for-the-badge&logo=hammer&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.x-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
 Agente que ajuda a migrar dados recebidos em CSV ou Excel para o banco MySQL do sistema: limpa os arquivos e sugere as queries SQL de migração.
 
 ## O problema
