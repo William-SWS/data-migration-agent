@@ -80,3 +80,9 @@ Decisões da rodada 3 da entrevista (o usuário aprovou todas as recomendações
 59. **A conexão somente leitura ao banco é o último ticket, marcado como opcional** (detalha a entrada 45).
 60. **Entrevista encerrada.** O usuário confirmou o entendimento compartilhado (fronteira vazia).
 61. **Tracker: um board privado do GitHub Projects na conta `William-SWS`, substituindo a entrada 26.** Spec e tickets deixam de ser arquivos locais em `docs/issues/` e vão para esse board, que precisa ser privado. Formato provável, ainda pendente de confirmação do usuário: repositório privado `William-SWS/data-migration-agent` com as issues (spec incluída), ligado a um board Projects (v2) privado. Quem cria é o usuário, pela sessão principal.
+
+Decisões da publicação da spec e dos tickets:
+
+62. **Tracker definido (detalha a 61):** repositório privado `William-SWS/data-migration-agent`, criado pelo usuário. A spec é a issue #1 (etiqueta `spec`); os 19 tickets são as issues #2–#20, sub-issues da spec, com a etiqueta `aula` (em vez de `ready-for-agent`, porque quem implementa é o usuário) e dependências como "blocked by" nativas. O GitHub é a fonte oficial; `docs/issues/` guarda um espelho local para a skill do curso.
+63. **Tickets 7 e 8 da proposta fundidos** num só ("CPF, CNPJ, CEP, UF e telefone"), a pedido do usuário. São 19 tickets/aulas; o último (conexão somente leitura) é opcional.
+64. **Costuras de teste:** a principal é a CLI (comandos sobre arquivos fictícios num diretório temporário, script comparado com arquivo esperado); a secundária é a interface dos formatos conhecidos (valor bruto → normalizado ou inválido), testada com tabelas de casos. A skill `/migrar` é verificada manualmente. Nenhum dado real entra no repositório.

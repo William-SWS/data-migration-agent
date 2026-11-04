@@ -1,0 +1,21 @@
+# Dados das migrações (contêm dados pessoais — nunca versionar)
+workspace/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# MkDocs
+site/
+
+# Sistema / editores
+.DS_Store
+.vscode/
+.idea/
