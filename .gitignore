@@ -19,5 +19,5 @@ site/
 .DS_Store
 .vscode/
 .idea/
-AGENTS.md
-Claude.md
+/AGENTS.md
+/CLAUDE.md
