@@ -2,8 +2,6 @@
 
 Agente que ajuda a migrar dados recebidos em CSV ou Excel para o banco MySQL do sistema: limpa os arquivos e sugere as queries SQL de migração.
 
-> Status: projeto em planejamento. Ainda não há código. Ele será construído como um curso, um ticket por aula.
-
 ## O problema
 
 Bases de dados chegam em CSV, Excel etc. e precisam ir para o banco do sistema. Sempre aparecem os mesmos problemas:
